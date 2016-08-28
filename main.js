@@ -16,4 +16,17 @@ numbers.large.map(function (num) {
     console.log(num);
 });
 
+var add = function (numbers) {
+    var sum;
+    numbers.map(function (numbers) {
+        sum += numbers;
+    });
+    return sum;
+};
+
+
+
+console.log(add(numbers.small));
+
+
 
